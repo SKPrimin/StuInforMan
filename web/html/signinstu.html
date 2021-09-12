@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font-awesome -->
+    <link
+            rel="stylesheet"
+            href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css"
+    />
+    <link rel="stylesheet" href="../css/signin.css">
+
+    <title>Title</title>
+</head>
+
+<body style="background-image: url('../img/img34.jpg');  background-size: 100%;">
+<!-- 个人卡片容器，居中卡片 -->
+<div class="wrapper">
+    <!-- 个人卡片 -->
+    <div class="profile-card">
+        <!-- 卡片内容，导航，个人简介 -->
+        <div class="content">
+            <!-- 导航 -->
+            <nav id="nav-menu">
+                <!-- data-rel，在js里获取当前要展示哪个section，是个人简介还是账户信息 -->
+                <a class="active" href="#" data-rel="about-me-section">个人简介</a>
+                <a href="#" data-rel="work-exp-section">成绩页面</a>
+                <!-- 当前选中菜单的指示条 -->
+                <div class="indicator"></div>
+            </nav>
+            <!-- 关于我部分 -->
+            <section class="about-me-section active-section">
+                <!-- 名字身份信息 -->
+                <div class="personal-info">
+                    <div class="title">
+                        <h1>username</h1>
+                        <p>sex/grade</p>
+                    </div>
+
+                </div>
+
+
+            </section>
+            <!-- 成绩部分 -->
+            <section class="work-exp-section">
+                <!-- 成绩容器 -->
+                <div class="work-exps">
+                    <!-- 每条成绩 -->
+                    <div class="work-exp-item">
+                        <!-- 语文 -->
+                        <div class="position">语文</div>
+                        <!-- 分隔线 -->
+                        <div class="seperator"></div>
+                        <!-- 分数 -->
+                        <div class="work-info">
+                            <!-- 语文分数 -->
+                            <div class="company">chinesescore</div>
+                        </div>
+                    </div>
+                    <div class="work-exp-item">
+                        <div class="position">数学</div>
+                        <div class="seperator"></div>
+                        <div class="work-info">
+
+                            <div class="company">mathscore</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+<!-- JS文件 -->
+<script src="../js/signin.js" type="text/javascript"></script>
+</body>
+</html>
