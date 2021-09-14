@@ -22,12 +22,12 @@
     <link rel="stylesheet" href="libs/glide/glide.theme.min.css" />
     <link rel="stylesheet" href="css/indexstyle.css" />
 
-    <title>班级管理系统 - 创新型网络技术企业</title>
+    <title>学生信息管理系统 - 创新型网络技术企业</title>
 </head>
 <body>
 <!-- 头部 -->
 <header class="open">
-    <div class="logo">班级管理系统</div>
+    <div class="logo">学生信息管理系统</div>
     <!-- 导航 -->
     <nav>
         <a href="#home">首页</a>
@@ -35,7 +35,7 @@
         <a href="#showcases">成绩系统</a>
         <a href="#service">表彰记录</a>
         <a href="#team-intro">团队介绍</a>
-        <a href="#company-activities">班级论坛</a>
+        <a href="#company-activities">校园论坛</a>
         <a href="login.jsp">登录</a>
         <i class="fas fa-search"></i>
     </nav>
@@ -56,9 +56,9 @@
             <div class="glide__slide">
                 <!-- 轮播标题 -->
                 <div class="slide-caption">
-                    <h1>用创新点缀班级，让科技融入管理。</h1>
+                    <h1>用创新点缀校园，让科技融入管理。</h1>
                     <h3>
-                        班级管理大平台，智慧班级新引擎。用创新点缀班级，让科技融入管理。
+                        学生信息管理管理大平台，智慧校园新引擎。用创新点缀校园，让科技融入管理。
                     </h3>
                     <!-- 探索按钮 -->
                     <button class="explore-btn">探索更多</button>
@@ -71,9 +71,9 @@
             <!-- 第二张轮播 -->
             <div class="glide__slide">
                 <div class="slide-caption left">
-                    <h1>科技改变班级</h1>
+                    <h1>科技改变校园</h1>
                     <h3>
-                        立足科学发展，着力自主创新。加速科技进步，为班级良好发展提供有力支撑。凝聚科技创意，成就创新梦想。
+                        立足科学发展，着力自主创新。加速科技进步，为校园良好发展提供有力支撑。凝聚科技创意，成就创新梦想。
                     </h3>
                     <button class="explore-btn">探索更多</button>
                 </div>
@@ -106,7 +106,7 @@
         <h2 class="title1">发布公告</h2>
         <!-- 补充说明区域 -->
         <p class="intro">
-            班级公告为班级成员提供最新资讯
+            校园公告为全校师生提供最新资讯
         </p>
         <!-- 公司业务容器，栅格布局 -->
         <div class="features">
@@ -118,7 +118,7 @@
                 <h4 class="feature-title">建设建议</h4>
                 <!-- 右侧业务内容 -->
                 <p class="feature-content">
-                    为班级更好发展提出建议
+                    为校园更好地发展提出建议
                 </p>
             </div>
             <div class="feature">
@@ -250,7 +250,7 @@
                 <i class="fas fa-gavel"></i>
                 <h2 class="service-title">勤学好问之星</h2>
                 <p class="service-content">
-                    他们品德优秀，乐于助人，关心班级，为班级做出许多贡献。
+                    他们品德优秀，乐于助人，关心学校，为学校做出许多贡献。
                     而且他们学习刻苦，积极乐观。
                     对他们来说这项“勤学好问”奖是当之无愧的！
                 </p>
@@ -424,11 +424,11 @@
             <div class="data-desc">个项目</div>
         </div>
     </section>
-    <!-- 班级论坛 -->
+    <!-- 校园论坛 -->
     <section id="company-activities" class="company-activities">
-        <h2 class="title1">班级论坛</h2>
+        <h2 class="title1">校园论坛</h2>
         <p class="intro">
-            关注班级论坛，第一时间获取班级消息
+            关注校园论坛，第一时间获取校园消息
         </p>
         <!-- 动态容器 -->
         <div class="activities">
@@ -489,7 +489,7 @@
         </p>
         <!-- 版权信息 -->
         <p class="rights">
-            &copy; 2021 班级管理系统 - 琦哥技术 版权所有
+            &copy; 2021 学生信息管理系统 - 琦哥技术 版权所有
         </p>
         <!-- 返回顶部按钮 -->
         <div class="scrollToTop">
