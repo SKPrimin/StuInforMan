@@ -186,6 +186,9 @@
             <button class="filter-btn" data-filter=".biologic">
                 生物
             </button>
+            <button class="filter-btn" data-filter=".political">
+                政治
+            </button>
             <button class="filter-btn" data-filter=".history">
                 历史
             </button>
@@ -199,29 +202,31 @@
         <div class="cases">
             <!-- case-item样式类，chinese math为类别类 -->
             <div class="case-item chinese">
-                <!-- 图片 -->
-                <img src="images/chineseC.jpg" alt="" />
+                <a>语文成绩</a>
             </div>
             <div class="case-item math">
-                <img src="images/mathC.jpg" alt="" />
+                <a>数学成绩</a>
             </div>
             <div class="case-item english">
-                <img src="images/english-input.png" alt="" />
+                <a>英语成绩</a>
             </div>
             <div class="case-item physics">
-                <img src="images/physics.png" alt="" />
+                <a>物理成绩</a>
             </div>
             <div class="case-item chemistry">
-                <img src="images/chemistry.png" alt=""/>
+                <a>化学成绩</a>
             </div>
             <div class="case-item biologic">
-                <img src="images/biologic.png" alt=""/>
+                <a>生物成绩</a>
+            </div>
+            <div class="case-item political">
+                <a>政治成绩</a>
             </div>
             <div class="case-item history">
-                <img src="images/history.png" alt=""/>
+                <a>历史成绩</a>
             </div>
             <div class="case-item geography">
-                <img src="images/geography.png" alt=""/>
+                <a>地理成绩</a>
             </div>
 
 
