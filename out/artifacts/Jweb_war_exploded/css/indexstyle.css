@@ -346,20 +346,14 @@ section {
 
 .showcases .case-item {
     /* 保持图片长宽比 */
-    width: 25vw;
-    /* 这里没有写错，图片比例为25：20，也就是5：4 */
-    height: 20vw;
+    width: 33vw;
+    /* 这里没有写错，图片比例为33：20，使一行有三个，形成3*3阵列 */
+    height: 10vw;
     overflow: hidden;
     position: relative;
     text-align: center;
 }
 
-/* 案例图片 */
-.case-item img {
-    height: 100%;
-    object-fit: cover;
-    text-align: center;
-}
 
 /* ============= 服务流程 ================== */
 /* 区域 */
@@ -949,9 +943,9 @@ footer {
         row-gap: 36px;
     }
 
-    /* 成功案例图片显示为两列 */
+    /* 成绩栏显示为三列 */
     .showcases .case-item {
-        width: calc(100vw / 2);
+        width: calc(100vw / 3);
         height: 30vw;
     }
 

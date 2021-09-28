@@ -169,7 +169,7 @@
             </button>
             <!-- 指定要过滤的class selector，包括. -->
             <button class="filter-btn" data-filter=".chinese">
-                语文y
+                语文
             </button>
             <button class="filter-btn" data-filter=".math">
                 数学
