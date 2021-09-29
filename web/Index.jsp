@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="libs/glide/glide.theme.min.css" />
     <link rel="stylesheet" href="css/indexstyle.css" />
 
-    <title>学生信息管理系统 - 创新型网络技术企业</title>
+    <title>学生信息管理系统 - 创新型信息管理</title>
 </head>
 <body>
 <!-- 头部 -->
@@ -309,7 +309,7 @@
             <div class="team-member">
                 <!-- 成员照片 -->
                 <div class="profile-image">
-                    <img src="images/c463cd8abcffd0bbd490da8bd8975c6a0552f615.jpg" alt="" />
+                    <img src="images/zc.jpg" alt="" />
                 </div>
                 <!-- 成员姓名 -->
                 <h4 class="name">张丞</h4>
@@ -318,85 +318,85 @@
                 <!-- 成员社交账号 -->
                 <ul class="social-links">
                     <li>
-                        <a href="#"><i class="fab fa-weixin"></i></a>
+                        <a href="#team-intro"><i class="fab fa-weixin"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fab fa-weibo"></i></a>
+                        <a href="#team-intro"><i class="fab fa-weibo"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#team-intro"><i class="fab fa-github"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#team-intro"><i class="fab fa-linkedin"></i></a>
                     </li>
                 </ul>
             </div>
             <div class="team-member">
                 <div class="profile-image">
                     <img
-                            src="images/c13ab076e2a4fdc93fc13a09e9a81a998e7eb120.jpg"
+                            src="images/wm.jpg"
                             alt=""
                     />
                 </div>
-                <h4 class="name">姚佳坤</h4>
+                <h4 class="name">韦萌</h4>
                 <p class="position">后端工程师</p>
                 <ul class="social-links">
                     <li>
-                        <a href="#"><i class="fab fa-weixin"></i></a>
+                        <a href="#team-intro"><i class="fab fa-weixin"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fab fa-weibo"></i></a>
+                        <a href="#team-intro"><i class="fab fa-weibo"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#team-intro"><i class="fab fa-github"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#team-intro"><i class="fab fa-linkedin"></i></a>
                     </li>
                 </ul>
             </div>
             <div class="team-member">
                 <div class="profile-image">
                     <img
-                            src="images/0826962bda56a99d32ef4490e3542ef69f1722c3.jpg"
+                            src="images/zhj.jpg"
                             alt=""
                     />
                 </div>
-                <h4 class="name">刘琦</h4>
+                <h4 class="name">郑海军</h4>
                 <p class="position">后端工程师</p>
                 <ul class="social-links">
                     <li>
-                        <a href="#"><i class="fab fa-weixin"></i></a>
+                        <a href="#team-intro"><i class="fab fa-weixin"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fab fa-weibo"></i></a>
+                        <a href="#team-intro"><i class="fab fa-weibo"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#team-intro"><i class="fab fa-github"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#team-intro"><i class="fab fa-linkedin"></i></a>
                     </li>
                 </ul>
             </div>
             <div class="team-member">
                 <div class="profile-image">
-                    <img src="images/f21b622c81a92dcbec204d839dbd95d6e8bf42f9.jpg" alt="" />
+                    <img src="images/zt.jpg" alt="" />
                 </div>
-                <h4 class="name">亢舰</h4>
+                <h4 class="name">张婷</h4>
                 <p class="position">数据库工程师</p>
                 <ul class="social-links">
                     <li>
-                        <a href="#"><i class="fab fa-weixin"></i></a>
+                        <a href="#team-intro"><i class="fab fa-weixin"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fab fa-weibo"></i></a>
+                        <a href="#team-intro"><i class="fab fa-weibo"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#team-intro"><i class="fab fa-github"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#team-intro"><i class="fab fa-linkedin"></i></a>
                     </li>
                 </ul>
             </div>
@@ -441,7 +441,7 @@
 
             <div class="activity">
                 <div class="act-image-wrapper">
-                    <img src="images/ZDL4$DN86F41)$HCMC8RS@F.jpg" alt="" />
+                    <img src="images/sourthandnorthdisnary.jpg" alt="" />
                 </div>
                 <div class="meta">
                     <p class="date-published">
