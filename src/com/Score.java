@@ -19,6 +19,7 @@ public class Score {
     public int chemistry;
     public int biologic;
     public int political;
+    public int history;
     public int geography;
 
 
@@ -52,6 +53,7 @@ public class Score {
                     chemistry = rs.getInt("chemistry");
                     biologic = rs.getInt("biologic");
                     political = rs.getInt("political");
+                    history = rs.getInt("history");
                     geography = rs.getInt("geography");
 
                 }

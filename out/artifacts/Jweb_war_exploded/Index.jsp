@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page import= "com.* "%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -196,37 +197,50 @@
                 地理
             </button>
 
-
+<%
+    String SNO = "789";
+    Score stc = new Score(SNO);
+    stc.getScore();
+%>
         </div>
         <!-- 案例 -->
         <div class="cases">
             <!-- case-item样式类，chinese math为类别类 -->
             <div class="case-item chinese">
                 <a>语文成绩</a>
+                <a><%=stc.chinese%></a>
             </div>
             <div class="case-item math">
                 <a>数学成绩</a>
+                <a><%=stc.math%></a>
             </div>
             <div class="case-item english">
                 <a>英语成绩</a>
+                <a><%=stc.english%></a>
             </div>
             <div class="case-item physics">
                 <a>物理成绩</a>
+                <a><%=stc.physics%></a>
             </div>
             <div class="case-item chemistry">
                 <a>化学成绩</a>
+                <a><%=stc.chemistry%></a>
             </div>
             <div class="case-item biologic">
                 <a>生物成绩</a>
+                <a><%=stc.biologic%></a>
             </div>
             <div class="case-item political">
                 <a>政治成绩</a>
+                <a><%=stc.political%></a>
             </div>
             <div class="case-item history">
                 <a>历史成绩</a>
+                <a><%=stc.history%></a>
             </div>
             <div class="case-item geography">
                 <a>地理成绩</a>
+                <a><%=stc.geography%></a>
             </div>
 
 

@@ -47,20 +47,16 @@
         if (Objects.equals(password, stu_password)){
             out.print("验证成功");
             if (Objects.equals(grade, "教师")){
-
                 response.sendRedirect("signintea.jsp");
             }else {
                 session.setAttribute("stu_name",stu_name);
                 response.sendRedirect("signinstu.jsp");
             }
         }else{
-
             response.sendRedirect("html/404.html");
             out.print("用户名或密码错误");
             out.print("<a href=\"login.jsp\">返回登录界面</a>");
         }
-
-
     }
     else{
         out.print("连接失败数据区！");
