@@ -49,10 +49,10 @@
             </nav>
             <!-- 关于我部分 -->
             <section class="about-me-section active-section">
-                <!-- 名字身份信息 -->
+                <!-- 学号身份信息 -->
                 <div class="personal-info">
                     <div class="title">
-                        <h1><%=username%>
+                        <h1><%=stc.SNO%>
                         </h1>
                     </div>
 
