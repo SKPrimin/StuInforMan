@@ -11,7 +11,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!-- font-awesome -->
     <link
             rel="stylesheet"
@@ -25,14 +25,13 @@
 <body style="background-image: url('${pageContext.request.contextPath}/img/img34.jpg');  background-size: 100%;">
 <!-- 个人卡片容器，居中卡片 -->
 
-<%@page import="java.sql.*,java.util.*,java.net.*,java.lang.*"%>
+<%@page import="java.sql.*,java.util.*,java.net.*,java.lang.*" %>
 <%
-//    String SNO = (String) session.getAttribute("stu_name");
+    //    String SNO = (String) session.getAttribute("stu_name");
     String SNO = "789";
     Score stc = new Score(SNO);
     stc.getScore();
 %>
-
 
 
 <div class="wrapper">
@@ -53,7 +52,8 @@
                 <!-- 名字身份信息 -->
                 <div class="personal-info">
                     <div class="title">
-                        <h1><%=username%></h1>
+                        <h1><%=username%>
+                        </h1>
                     </div>
 
                 </div>
@@ -67,75 +67,80 @@
                         <!-- 分数 -->
                         <div class="work-info">
                             <!-- 语文分数 -->
-                            <div class="company"><%=stc.chinese%></div>
+                            <div class="company"><%=stc.chinese%>
+                            </div>
                         </div>
                     </div>
                     <div class="work-exp-item">
                         <div class="position">数学</div>
                         <div class="seperator"></div>
                         <div class="work-info">
-                            <div class="company"><%=stc.math%></div>
+                            <div class="company"><%=stc.math%>
+                            </div>
                         </div>
                     </div>
                     <div class="work-exp-item">
                         <div class="position">英语</div>
                         <div class="seperator"></div>
                         <div class="work-info">
-                            <div class="company"><%=stc.english%></div>
+                            <div class="company"><%=stc.english%>
+                            </div>
                         </div>
                     </div>
                     <div class="work-exp-item">
                         <div class="position">物理</div>
                         <div class="seperator"></div>
                         <div class="work-info">
-                            <div class="company"><%=stc.physics%></div>
+                            <div class="company"><%=stc.physics%>
+                            </div>
                         </div>
                     </div>
                     <div class="work-exp-item">
                         <div class="position">化学</div>
                         <div class="seperator"></div>
                         <div class="work-info">
-                            <div class="company"><%=stc.chemistry%></div>
+                            <div class="company"><%=stc.chemistry%>
+                            </div>
                         </div>
                     </div>
                     <div class="work-exp-item">
                         <div class="position">生物</div>
                         <div class="seperator"></div>
                         <div class="work-info">
-                            <div class="company"><%=stc.biologic%></div>
+                            <div class="company"><%=stc.biologic%>
+                            </div>
                         </div>
                     </div>
                     <div class="work-exp-item">
                         <div class="position">政治</div>
                         <div class="seperator"></div>
                         <div class="work-info">
-                            <div class="company"><%=stc.political%></div>
+                            <div class="company"><%=stc.political%>
+                            </div>
                         </div>
                     </div>
                     <div class="work-exp-item">
                         <div class="position">历史</div>
                         <div class="seperator"></div>
                         <div class="work-info">
-                            <div class="company"><%=stc.history%></div>
+                            <div class="company"><%=stc.history%>
+                            </div>
                         </div>
                     </div>
                     <div class="work-exp-item">
                         <div class="position">地理</div>
                         <div class="seperator"></div>
                         <div class="work-info">
-                            <div class="company"><%=stc.geography%></div>
+                            <div class="company"><%=stc.geography%>
+                            </div>
                         </div>
                     </div>
-
                 </div>
-                </div>
-
 
             </section>
             <!-- 成绩部分 -->
             <section class="work-exp-section">
                 <!-- 成绩容器 -->
-
             </section>
         </div>
     </div>
