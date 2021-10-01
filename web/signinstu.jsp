@@ -86,6 +86,9 @@
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div class="work-exps">
                     <div class="work-exp-item">
                         <div class="position">物理</div>
                         <div class="seperator"></div>
@@ -110,6 +113,9 @@
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div class="work-exps">
                     <div class="work-exp-item">
                         <div class="position">政治</div>
                         <div class="seperator"></div>

@@ -11,15 +11,14 @@
 
 }
 
-
-
 * {
-
   margin: 0;
   padding: 0;
   font-size: 14px;
   box-sizing: border-box;
   font-family: "Raleway", "PingFang SC", "Microsoft Yahei", sans-serif;
+  background-image: url('../img/img34.jpg');
+  background-size: 100%;
 }
 
 .wrapper {
@@ -30,20 +29,18 @@
   height: 100vh;
 }
 
-
 .profile-card {
   display: grid;
-  /* 12格栅格 */
-  grid-template-columns: repeat(12, 1fr);
+  /* 6格栅格 */
+  grid-template-columns: repeat(6, 1fr);
   /* 每个列之间的空隙是12px */
   column-gap: 12px;
-  /* 卡片总宽度为627px */
-  width: 627px;
-  /* 卡片总高度为374px */
-  height: 374px;
+  /* 卡片总宽度为778px */
+  width: 778px;
+  /* 卡片总高度为425px */
+  height: 425px;
   box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.18);
 }
-
 
 .content {
   /* 左边内容占7列 */
@@ -91,7 +88,7 @@ nav .indicator {
 
 .content section.active-section {
   /* 显示active-section */
-  opacity: 1;
+  opacity: 3;
 }
 
 /* 名字、身份与关注按钮左右布局，各占一列，子栅格不受父栅格影响，是个全新的栅格布局 */
@@ -166,6 +163,7 @@ footer .fab {
 .work-exps {
   color: var(--text-color-gray);
   display: grid;
+  width: 33vw;
   grid-template-rows: repeat(3, minmax(80px, auto));
 }
 
@@ -176,6 +174,7 @@ footer .fab {
   grid-template-columns: 5fr 1fr 7fr;
   align-items: center;
   justify-content: center;
+  justify-items: center;
 }
 
 /* 职位 */
