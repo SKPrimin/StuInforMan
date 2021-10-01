@@ -4,8 +4,9 @@
   Date: 2021/6/24
   Time: 19:41
   To change this template use File | Settings | File Templates.
+  本界面是学生分数查询界面，学生在登录万验证后会进入这个页面，显示九门课成绩的信息条
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <%@page import="com.Score" %>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,9 +22,8 @@
 
     <title>学生页面</title>
 </head>
-
+<%--设置本界面的背景图片--%>
 <body style="background-image: url('${pageContext.request.contextPath}/img/img34.jpg');  background-size: 100%;">
-<!-- 个人卡片容器，居中卡片 -->
 
 <%@page import="java.sql.*,java.util.*,java.net.*,java.lang.*" %>
 <%
@@ -33,7 +33,7 @@
     stc.getScore();
 %>
 
-
+<!-- 个人卡片容器，居中卡片 -->
 <div class="wrapper">
     <!-- 个人卡片 -->
     <div class="profile-card">
@@ -43,7 +43,6 @@
             <nav id="nav-menu">
                 <!-- data-rel，在js里获取当前要展示哪个section，是个人简介还是账户信息 -->
                 <a class="active" href="#" data-rel="about-me-section">学生成绩</a>
-
                 <!-- 当前选中菜单的指示条 -->
                 <div class="indicator"></div>
             </nav>
@@ -55,8 +54,8 @@
                         <h1><%=stc.SNO%>
                         </h1>
                     </div>
-
                 </div>
+
                 <div class="work-exps">
                     <!-- 每条成绩 -->
                     <div class="work-exp-item">
