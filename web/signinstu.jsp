@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@page import="com.Score" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,38 +26,11 @@
 <!-- 个人卡片容器，居中卡片 -->
 
 <%@page import="java.sql.*,java.util.*,java.net.*,java.lang.*"%>
-<%! String username;
-    int chinesescore;
-    int mathscore;
-%>
-
-<% try {
-    Class.forName("com.mysql.cj.jdbc.Driver");
-
-    Connection connect = DriverManager.getConnection(
-            "jdbc:mysql://localhost:3306/javauser?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone = GMT",
-            "root", "root");
-//test为数据库名，root为用户名，password为密码，需根据实际情况进行修改。
-    if(connect != null){
-        out.print("数据库连接成功！");
-
-        Statement stmt = connect.createStatement();
-        username = (String) session.getAttribute("stu_name");
-
-        ResultSet rs = stmt.executeQuery("select * from stu_tbl where stu_name = '"+username+"'");
-        out.print(rs);
-        while (rs.next()) {
-            chinesescore = rs.getInt("stu_chinese");
-            mathscore = rs.getInt("stu_math");
-            out.print(chinesescore + "ad" + mathscore);
-        }
-    }
-    else{
-        out.print("连接失败数据区！");
-    }
-}catch (Exception e) {
-    out.print("数据库连接异常外部！");
-}
+<%
+//    String SNO = (String) session.getAttribute("stu_name");
+    String SNO = "789";
+    Score stc = new Score(SNO);
+    stc.getScore();
 %>
 
 
@@ -93,17 +67,67 @@
                         <!-- 分数 -->
                         <div class="work-info">
                             <!-- 语文分数 -->
-                            <div class="company"><%=chinesescore%></div>
+                            <div class="company"><%=stc.chinese%></div>
                         </div>
                     </div>
                     <div class="work-exp-item">
                         <div class="position">数学</div>
                         <div class="seperator"></div>
                         <div class="work-info">
-
-                            <div class="company"><%=mathscore%></div>
+                            <div class="company"><%=stc.math%></div>
                         </div>
                     </div>
+                    <div class="work-exp-item">
+                        <div class="position">英语</div>
+                        <div class="seperator"></div>
+                        <div class="work-info">
+                            <div class="company"><%=stc.english%></div>
+                        </div>
+                    </div>
+                    <div class="work-exp-item">
+                        <div class="position">物理</div>
+                        <div class="seperator"></div>
+                        <div class="work-info">
+                            <div class="company"><%=stc.physics%></div>
+                        </div>
+                    </div>
+                    <div class="work-exp-item">
+                        <div class="position">化学</div>
+                        <div class="seperator"></div>
+                        <div class="work-info">
+                            <div class="company"><%=stc.chemistry%></div>
+                        </div>
+                    </div>
+                    <div class="work-exp-item">
+                        <div class="position">生物</div>
+                        <div class="seperator"></div>
+                        <div class="work-info">
+                            <div class="company"><%=stc.biologic%></div>
+                        </div>
+                    </div>
+                    <div class="work-exp-item">
+                        <div class="position">政治</div>
+                        <div class="seperator"></div>
+                        <div class="work-info">
+                            <div class="company"><%=stc.political%></div>
+                        </div>
+                    </div>
+                    <div class="work-exp-item">
+                        <div class="position">历史</div>
+                        <div class="seperator"></div>
+                        <div class="work-info">
+                            <div class="company"><%=stc.history%></div>
+                        </div>
+                    </div>
+                    <div class="work-exp-item">
+                        <div class="position">地理</div>
+                        <div class="seperator"></div>
+                        <div class="work-info">
+                            <div class="company"><%=stc.geography%></div>
+                        </div>
+                    </div>
+
+                </div>
                 </div>
 
 
@@ -118,6 +142,6 @@
 </div>
 
 <!-- JS文件 -->
-<script src="../js/signin.js" type="text/javascript"></script>
+<script src="${pageContext.request.contextPath}/js/signin.js" type="text/javascript"></script>
 </body>
 </html>
