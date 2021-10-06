@@ -151,51 +151,8 @@
 
 %>
 <style type="text/css">
-    /*表格样式*/
-    table {
-        width: 90%;
-        background: #ccc;
-        margin: 10px auto;
-        border-collapse: collapse;/*border-collapse:collapse合并内外边距(去除表格单元格默认的2个像素内外边距*/
-    }
-    th,td {
-        height: 25px;
-        line-height: 25px;
-        text-align: center;
-        border: 1px solid #ccc;
-    }
-    th {
-        background: #eee;
-        font-weight: normal;
-    }
-    tr {
-        background: #fff;
-    }
-    tr:hover {
-        background: #1ee2f5;
-    }
-    td a {
-        color: #06f;
-        text-decoration: none;
-    }
-    td a:hover {
-        color: #06f;
-        text-decoration: underline;
-    }
-    .para1 {
-        font-family: "Courier New", Courier, monospace;
-        font-size: x-large;
-        font-style: oblique;
-        font-weight: bold;
-        color: #42e2e8;
-    }
-    .tl{
-        background-color: rgb(104, 213, 187);
 
-    }
-    .t{
-        color: #ee609c;
-    }
+
 </style>
 </body>
 </html>
