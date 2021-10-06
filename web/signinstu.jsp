@@ -56,92 +56,99 @@
                     </div>
                 </div>
 
-                <div class="work-exps">
-                    <!-- 每条成绩 -->
-                    <div class="work-exp-item">
-                        <!-- 语文 -->
-                        <div class="position">语文</div>
-                        <!-- 分隔线 -->
-                        <div class="seperator"></div>
-                        <!-- 分数 -->
-                        <div class="work-info">
-                            <!-- 语文分数 -->
-                            <div class="company"><%=stc.chinese%>
+                <table>
+                    <tr>
+                        <td>
+                            <div class="work-exps">
+                                <!-- 每条成绩 -->
+                                <div class="work-exp-item">
+                                    <!-- 语文 -->
+                                    <div class="position">语文</div>
+                                    <!-- 分隔线 -->
+                                    <div class="seperator"></div>
+                                    <!-- 分数 -->
+                                    <div class="work-info">
+                                        <!-- 语文分数 -->
+                                        <div class="company"><%=stc.chinese%>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="work-exp-item">
+                                    <div class="position">数学</div>
+                                    <div class="seperator"></div>
+                                    <div class="work-info">
+                                        <div class="company"><%=stc.math%>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="work-exp-item">
+                                    <div class="position">英语</div>
+                                    <div class="seperator"></div>
+                                    <div class="work-info">
+                                        <div class="company"><%=stc.english%>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="work-exp-item">
-                        <div class="position">数学</div>
-                        <div class="seperator"></div>
-                        <div class="work-info">
-                            <div class="company"><%=stc.math%>
+                        </td>
+                        <td>
+                            <div class="work-exps">
+                                <div class="work-exp-item">
+                                    <div class="position">物理</div>
+                                    <div class="seperator"></div>
+                                    <div class="work-info">
+                                        <div class="company"><%=stc.physics%>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="work-exp-item">
+                                    <div class="position">化学</div>
+                                    <div class="seperator"></div>
+                                    <div class="work-info">
+                                        <div class="company"><%=stc.chemistry%>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="work-exp-item">
+                                    <div class="position">生物</div>
+                                    <div class="seperator"></div>
+                                    <div class="work-info">
+                                        <div class="company"><%=stc.biologic%>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="work-exp-item">
-                        <div class="position">英语</div>
-                        <div class="seperator"></div>
-                        <div class="work-info">
-                            <div class="company"><%=stc.english%>
+                        </td>
+                        <td>
+                            <div class="work-exps">
+                                <div class="work-exp-item">
+                                    <div class="position">政治</div>
+                                    <div class="seperator"></div>
+                                    <div class="work-info">
+                                        <div class="company"><%=stc.political%>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="work-exp-item">
+                                    <div class="position">历史</div>
+                                    <div class="seperator"></div>
+                                    <div class="work-info">
+                                        <div class="company"><%=stc.history%>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="work-exp-item">
+                                    <div class="position">地理</div>
+                                    <div class="seperator"></div>
+                                    <div class="work-info">
+                                        <div class="company"><%=stc.geography%>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="work-exps">
-                    <div class="work-exp-item">
-                        <div class="position">物理</div>
-                        <div class="seperator"></div>
-                        <div class="work-info">
-                            <div class="company"><%=stc.physics%>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="work-exp-item">
-                        <div class="position">化学</div>
-                        <div class="seperator"></div>
-                        <div class="work-info">
-                            <div class="company"><%=stc.chemistry%>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="work-exp-item">
-                        <div class="position">生物</div>
-                        <div class="seperator"></div>
-                        <div class="work-info">
-                            <div class="company"><%=stc.biologic%>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="work-exps">
-                    <div class="work-exp-item">
-                        <div class="position">政治</div>
-                        <div class="seperator"></div>
-                        <div class="work-info">
-                            <div class="company"><%=stc.political%>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="work-exp-item">
-                        <div class="position">历史</div>
-                        <div class="seperator"></div>
-                        <div class="work-info">
-                            <div class="company"><%=stc.history%>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="work-exp-item">
-                        <div class="position">地理</div>
-                        <div class="seperator"></div>
-                        <div class="work-info">
-                            <div class="company"><%=stc.geography%>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+                        </td>
+                    </tr>
+                </table>
             </section>
             <!-- 成绩部分 -->
             <section class="work-exp-section">
